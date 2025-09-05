@@ -34,3 +34,7 @@ hallSensor.stopServo(AnalogPin.P0)
 hallSensor.demoServoWithMagnet(DigitalPin.P1, AnalogPin.P0)
 ```
 
+## Setup
+
+- Connect a latching Hall sensor to a digital pin (e.g., P1).
+- Connect a linear Hall sensor to an analog pin (e.g., P0).
