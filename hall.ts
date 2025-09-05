@@ -1,5 +1,5 @@
 //% weight=10 color=#AA0000 icon="H"
-namespace Hall {
+namespace HallSensors {
 
     /**
      * Handler for latching Hall sensor (US1881).
@@ -52,3 +52,4 @@ namespace Hall {
         else return "Neutral";
     }
 }
+
