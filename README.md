@@ -18,18 +18,18 @@ hallSensor.onMagnetReleased(DigitalPin.P1, function () {
     basic.clearScreen()
 })
 ```
-
+## 🔵 Linear Hall Sensor
 ```blocks
 let field = hallSensor.readLinear(AnalogPin.P0)
 basic.showNumber(field)
 ```
-
+## 🟢 Servo Blocks
 ```blocks
 hallSensor.spinServo(AnalogPin.P0, 50)
 basic.pause(1000)
 hallSensor.stopServo(AnalogPin.P0)
 ```
-
+## ⚡ Servo + Magnet Demo
 ```blocks
 hallSensor.demoServoWithMagnet(DigitalPin.P1, AnalogPin.P0)
 ```
