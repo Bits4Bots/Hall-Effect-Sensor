@@ -1,11 +1,10 @@
 {
   "name": "hall-sensor",
   "version": "0.0.1",
-  "description": "MakeCode extension for Hall Effect Sensors (latching and linear) with servo demos.",
+  "description": "MakeCode extension for Hall Effect Sensors (latching and linear).",
   "license": "MIT",
   "dependencies": {
-    "core": "*",
-    "servo": "*"
+    "core": "*"
   },
   "files": [
     "main.ts"
@@ -13,3 +12,4 @@
   "icon": "fa-magnet",
   "preferredEditor": "blocksprj"
 }
+
